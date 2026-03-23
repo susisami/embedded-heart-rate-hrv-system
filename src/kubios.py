@@ -1,5 +1,5 @@
-from lib7.mqtt import MQTTManager
-from lib7 import history, menu_icons
+from src.mqtt import MQTTManager
+from src import history, menu_icons
 import json
 import time
 import framebuf
