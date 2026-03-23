@@ -1,5 +1,5 @@
 from machine import Pin
-from lib7 import buttons, hrlib, kubios, mqtt, history, animations
+from src import buttons, hrlib, kubios, mqtt, history, animations
 import micropython
 import time
 import uasyncio as asyncio
