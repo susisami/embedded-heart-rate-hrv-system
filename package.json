@@ -7,15 +7,15 @@
     ["lib/led.py", "http://localhost:8000/lib/led.py"],
     ["lib/ssd1306.mpy", "http://localhost:8000/lib/ssd1306.mpy"],
     ["lib/umqtt/simple.mpy", "http://localhost:8000/lib/umqtt/simple.mpy"],
-    ["lib7/hrlib.py", "http://localhost:8000/lib7/hrlib.py"],
-    ["lib7/buttons.py", "http://localhost:8000/lib7/buttons.py"],
-    ["lib7/kubios.py", "http://localhost:8000/lib7/kubios.py"],
-    ["lib7/mqtt.py", "http://localhost:8000/lib7/mqtt.py"],
-    ["lib7/history.py", "http://localhost:8000/lib7/history.py"],
-    ["lib7/hrv.py", "http://localhost:8000/lib7/hrv.py"],
-    ["lib7/menu_icons.py", "http://localhost:8000/lib7/menu_icons.py"],
+    ["src/hrlib.py", "http://localhost:8000/src/hrlib.py"],
+    ["src/buttons.py", "http://localhost:8000/src/buttons.py"],
+    ["src/kubios.py", "http://localhost:8000/src/kubios.py"],
+    ["src/mqtt.py", "http://localhost:8000/src/mqtt.py"],
+    ["src/history.py", "http://localhost:8000/src/history.py"],
+    ["src/hrv.py", "http://localhost:8000/src/hrv.py"],
+    ["src/menu_icons.py", "http://localhost:8000/src/menu_icons.py"],
     ["patient_records.txt", "http://localhost:8000/patient_records.txt"],
-    ["lib7/animations.py", "http://localhost:8000/lib7/animations.py"]
+    ["src/animations.py", "http://localhost:8000/src/animations.py"]
   ],
   "deps": [
   ],
