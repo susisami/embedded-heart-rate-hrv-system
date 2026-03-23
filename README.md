@@ -57,7 +57,8 @@ Developed as part of a team project.
 ## Future Improvements
 - Enhanced data visualization dashboard  
 - Improved signal processing algorithms  
-- Mobile or web-based interface for monitoring  
+- Mobile or web-based interface for monitoring
+- Communication between each team member
 
 ## Author
 Souci Sami
