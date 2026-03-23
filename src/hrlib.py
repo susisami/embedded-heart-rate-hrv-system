@@ -1,13 +1,13 @@
-from lib7 import mqtt, menu_icons, hrv, history
+from src import mqtt, menu_icons, hrv, history
 from machine import Pin, I2C, ADC 
 from ssd1306 import SSD1306_I2C
 from piotimer import Piotimer
 from fifo import Fifo
 from filefifo import Filefifo
 import framebuf, time, math, utime
-from lib7 import hrv
-from lib7 import menu_icons
-from lib7 import buttons
+from src import hrv
+from src import menu_icons
+from src import buttons
 
 class Screen:
     width: int = 128
