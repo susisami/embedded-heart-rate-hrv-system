@@ -78,7 +78,7 @@ class MQTTManager:
     def connect_wifi(self):
         wlan = network.WLAN(network.STA_IF)
         wlan.active(True)
-        wlan.connect("KME_759_Group_7", "Group_6Group_7")
+        wlan.connect("", "") # WI-FI SSID + PASSWORD NEEDED
         
         for _ in range(10):
             if wlan.isconnected():
