@@ -19,12 +19,12 @@ This project is an embedded system designed for measuring heart rate and heart r
 - Developed real-time visualization on Raspberry Pi OLED display using MicroPython  
 
 ## Technologies
-- MicroPython  
-- MQTT  
-- Raspberry Pi  
-- Kubios Cloud
+- MicroPython    
+- Raspberry Pi
 - Wi-Fi
-- NTP  
+- NTP
+- MQTT  
+- Kubios Cloud  
 
 ## System Architecture
 The system consists of:
@@ -44,12 +44,12 @@ Main components of the system:
 - Data storage: `/src/history.py`  
 
 ## How It Works
-1. Sensor data is collected from the heart rate sensor  
-2. Data is filtered in real time to remove noise  
-3. Device connects to a Wi-Fi network via router  
-4. System synchronizes time using NTP  
-5. Processed data is stored locally for historical use  
-6. Data is transmitted to cloud services via MQTT  
+1. Device connects to a Wi-Fi network via router  
+2. System synchronizes time using NTP after successful Wi-Fi connectivity
+3. Sensor data is collected from the heart rate sensor  
+4. Data is filtered in real time to remove noise    
+5. Processed data is given an NTP timestamp and stored locally for later use.
+6. User chooses data to be sent to Kubios Cloud via MQTT.  
 7. Results are visualized on an OLED display   
 
 ## Team
