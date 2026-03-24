@@ -39,7 +39,8 @@ The system consists of:
 ## Key Implementation
 Main components of the system:
 - Signal processing: `/src/hrlib.py`  
-- MQTT communication: `/src/mqtt.py`  
+- MQTT communication: `/src/mqtt.py`
+- Kubios Cloud: `/src/kubios.py`  
 - Data storage: `/src/history.py`  
 
 ## How It Works
