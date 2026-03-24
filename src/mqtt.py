@@ -1,6 +1,7 @@
 from umqtt.simple import MQTTClient
 import ubinascii, machine, network, ntptime, time
 import uasyncio as asyncio
+
 class MQTTManager:
     def __init__(self):
         self.client = None
@@ -8,11 +9,11 @@ class MQTTManager:
         self.wifi_connected = False
 
         # mqtt Config
-        self.mac_add = ''
-        self.MQTT_BROKER = '192.168.7.253'
+        self.mac_add = '' # Automatically acquired at connect_wifi -function
+        self.MQTT_BROKER = '' # Router ip address here
         self.MQTT_PORT = 21883 
-        self.MQTT_USER = 'Rizvan'
-        self.MQTT_PASS = 'Group_6Group_7'
+        self.MQTT_USER = '' # Username
+        self.MQTT_PASS = '' # Password
         self.CLIENT_ID = b'hr_monitor_' + ubinascii.hexlify(machine.unique_id())
         
 
