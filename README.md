@@ -38,9 +38,9 @@ The system consists of:
 
 ## Key Implementation
 Main components of the system:
-- Signal processing: `/src/signal_processing.py`  
-- MQTT communication: `/src/mqtt_client.py`  
-- Data storage: `/src/storage.py`  
+- Signal processing: `/src/hrlib.py`  
+- MQTT communication: `/src/mqtt.py`  
+- Data storage: `/src/history.py`  
 
 ## How It Works
 1. Sensor data is collected from the heart rate sensor  
