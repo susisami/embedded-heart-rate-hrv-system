@@ -61,5 +61,3 @@ Developed as part of a team project.
 - Mobile or web-based interface for monitoring
 - Communication between each team member
 
-## Author
-Souci Sami
