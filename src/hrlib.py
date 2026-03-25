@@ -66,9 +66,9 @@ def menu(state: int):
     oled.show()
 
 
-#-----------------------------------------------------------------#
-# Function calculate BPM based on an array of recent PPI readings #
-#-----------------------------------------------------------------#
+#--------------------------------------------------------------------#
+# Function to calculate BPM based on an array of recent PPI readings #
+#--------------------------------------------------------------------#
 def calculate_bpm(ppi_list: list[int]):
     if len(ppi_list) < 5:
         raise RuntimeError("List too short")
