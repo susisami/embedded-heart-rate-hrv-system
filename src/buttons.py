@@ -25,7 +25,6 @@ class Encoder:
 
 
     def button_handler(self, pin):
-        utime.sleep_ms(20)
         if not pin.value():
             self.pressed = True
 
