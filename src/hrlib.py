@@ -205,7 +205,7 @@ def hr_monitor(ReturnBtn, Encoder, mode: str, Mqtt):
                         mean_bpm_list.pop(0)
                 print("bpm:", bpm)
 
-            # update threshold (HARAM method)
+            # update threshold (Too complex of a Method)
             hr_datapoint_avg = int((sum(hr_datapoint_arr) / len(hr_datapoint_arr)))
             threshold = (hr_datapoint_avg + sorted(hr_datapoint_arr)[-1]) / 2
 
